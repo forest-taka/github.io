@@ -9,3 +9,19 @@ h1,ul,li{
     margin: 0;
     padding: 0;
 }
+
+.important{
+    color: red;
+    font-weight: bold;
+}
+
+header{
+    color:lightblue;
+    height: 60px;
+    font-size: 30px;
+    text-align: center;
+}
+
+img{
+    
+}
