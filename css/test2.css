@@ -1,12 +1,12 @@
 body{
     margin:0;
-    background-color: black;
+    background-color: #64b9e6;
     font-family: Helvetica,"游ゴシック","Yu Gothic";
-    color:white;
+    color:#7b7b7b;
     width:100%;
 }
 h1,ul,li{
-    margin: 0;
+    margin: 0 10%; /*上下　左右　*/
     padding: 0;
 }
 
@@ -15,13 +15,24 @@ h1,ul,li{
     font-weight: bold;
 }
 
-header{
-    color:lightblue;
+h1{
+    color:white;
     height: 60px;
     font-size: 30px;
     text-align: center;
 }
 
-img{
-    
+.profile{
+    text-align: center;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+
+prof_list{
+    background-color: #d6eff9;
+    color: #64b9e6;
+    font-size: 18px;
+    list-style-type: none;
+    padding-left: 0;
 }
