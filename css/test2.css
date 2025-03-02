@@ -6,14 +6,10 @@ body{
     width:100%;
 }
 h1,ul,li{
-    margin: 0 10%; /*上下　左右　*/
+    margin: 0 10%;
     padding: 0;
 }
 
-.important{
-    color: red;
-    font-weight: bold;
-}
 
 h1{
     color:white;
@@ -27,12 +23,22 @@ h1{
     background-color: white;
     width: 80%;
     margin: auto;
+    border-radius: 8px; 
 }
 
-prof_list{
+.prof_list{   
+    list-style-type: none;
+    padding-left: 0;
+    align-items: center;
+}
+
+.list_name{
     background-color: #d6eff9;
     color: #64b9e6;
     font-size: 18px;
-    list-style-type: none;
-    padding-left: 0;
+}
+
+.list_content{
+    padding: 10px 0 20px;
+    margin: 8px;    
 }
